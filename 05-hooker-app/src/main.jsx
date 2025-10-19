@@ -11,11 +11,13 @@ import { HooksApp } from './hooksApp'
 // import { MultipleCustomHooks } from './03-Examples/MultipleCustomHooks'
 // import { Layout } from './05-useLayoutEffect/Layout'
 
-import { Padre } from './07-tarea-memo/Padre'
+// import { Padre } from './07-tarea-memo/Padre'
 
+// import './08-useReducer/intro-reducer'
+import { TodoApp } from './08-useReducer/TodoApp'
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
-    <Padre />
+    <TodoApp />
   /* </StrictMode>, */
 )
